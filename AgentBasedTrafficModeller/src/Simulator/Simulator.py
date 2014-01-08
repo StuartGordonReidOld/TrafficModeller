@@ -3,7 +3,7 @@
 # and open the template in the editor.
 
 __author__="stuart"
-__date__ ="$08 Jan 2014 9:05:50 PM$"
+__date__ ="$08 Jan 2014 9:05:40 PM$"
 
 if __name__ == "__main__":
     print "Hello World"
