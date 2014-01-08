@@ -9,12 +9,12 @@ class SimulationConfig:
     totalVehicles = 0
     lightVehicles = 0
     heavyVehicles = 0
+    # TODO: Add any additional variables light vehicle weight? etc.
     
     def __init__(self):
         self.totalVehicles = 0
         self.lightVehicles = 0
         self.heavyVehicles = 0
-
         return
     
     def run(self,fileName):
@@ -35,6 +35,7 @@ class SimulationConfig:
         print "Total vehicles is ", self.totalVehicles
         print "Heavy vehicles is ", self.heavyVehicles
         print "Light vehicles is ", self.lightVehicles
+        # TODO: Print any additional variables
         return
 
 if __name__ == "__main__":
